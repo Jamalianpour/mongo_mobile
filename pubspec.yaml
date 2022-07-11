@@ -1,0 +1,37 @@
+name: mongo_mobile
+description: A mongodb client for mobile with flutter
+
+version: 0.1.0
+
+environment:
+  sdk: ">=2.16.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.2
+  mongo_dart: ^0.7.4+1
+  overlay_support: ^1.2.1
+  flutter_slidable: ^1.2.0
+  font_awesome_flutter: ^9.2.0
+  shared_preferences: ^2.0.13
+  json_editor: ^0.0.8
+  url_launcher: ^6.1.4
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_launcher_icons: ^0.9.2
+  flutter_lints: ^1.0.4
+
+flutter_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path: "assets/icon/mongoFlutter.png"
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/
